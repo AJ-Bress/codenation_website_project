@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Permanent+Marker&family=Titillium+Web:wght@600&display=swap');
+
+
+* {
+    
+    font-size: 50px;
+}
+
+body{
+   background-image:url('./kings/luffywallpaper.jpeg')
+   
+}
+
+
+
+h1 {
+    color:black;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.big{
+    color: black;
+    font-size: 80px;
+}
+
+.large {
+    font-size: 50px;
+    text-align: center ;
+}
+
+.small{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+.center { text-align: center; }
+
+.space{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+
+    .bttn-1{
+
+        width: 160px;
+        height: 90px;
+        border: none;
+        color: whitesmoke;
+        font-family: 'Permanent Marker', cursive;
+        background-color:rgb(236, 14, 14);
+        border-radius: 7px;
+        box-shadow: inset 0 0 0 0 #0616f9;
+        transition:ease-out 0.3s;
+        outline:whitesmoke;
+    }
+    
+    .bttn-1:hover {
+        box-shadow: inset 170px 0 0 0 #f9e506;
+        cursor: pointer;
+        color: rgb(11, 223, 57);
+    }

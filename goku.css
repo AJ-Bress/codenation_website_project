@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Permanent+Marker&family=Titillium+Web:wght@600&display=swap');
+
+
+* {
+    background-color: aquamarine;
+    font-size: 50px;
+}
+
+body{
+   background-image:url('./kings/gokuwallpaper.jpeg')
+   
+}
+
+
+
+h1 {
+    color: rgb(248, 3, 3);
+    font-size: 100px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.big{
+    color: rgb(248, 3, 3);
+    font-size: 80px;
+}
+
+.large {
+    font-size: 50px;
+    text-align: center ;
+}
+
+.small{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(248, 3, 3);
+}
+
+.center { text-align: center; }
+
+.space{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+
+    .bttn-1{
+
+        width: 50x;
+        height: 80px;
+        border: none;
+        color: whitesmoke;
+        font-family: 'Permanent Marker', cursive;
+        background-color:rgb(236, 14, 14);
+        border-radius: 4px;
+        box-shadow: inset 0 0 0 0 #0616f9;
+        transition:ease-out 0.3s;
+        outline:whitesmoke;
+    }
+    
+    .bttn-1:hover {
+        box-shadow: inset 150px 0 0 0 #f9e506;
+        cursor: pointer;
+        color: rgb(11, 223, 57);
+    }

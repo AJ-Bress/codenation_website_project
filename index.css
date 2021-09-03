@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Permanent+Marker&family=Titillium+Web:wght@600&display=swap');
+
+* {
+    background-color: black;
+    font-size: 50px;
+}
+
+body { 
+    background-image:url('./kings/collage.png'); 
+} 
+
+h1 {
+    color:tomato;
+    font-size: 100px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.large {
+    font-size: 40px;
+    color: whitesmoke
+}
+
+
+.large {
+    text-align: large ;
+}
+
+.center { text-align: center; }
+
+.wild{ 
+    font-size: 30px;
+    color:blueviolet;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+
+}
+
+.btn-1{
+
+    width: 50x;
+    height: 80px;
+    border: none;
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+    background-color:tomato;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition:ease-out 0.3s;
+    outline:whitesmoke;
+}
+
+.btn-1:hover {
+    box-shadow: inset 145px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: turquoise;
+}
+
+.btn-2{
+    width: 50x;
+    height: 80px;
+    border: none;
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+    background-color:tomato;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-in 0.3s;
+    outline:whitesmoke;
+}
+
+.btn-2:hover {
+    box-shadow: inset 145px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: turquoise;
+}
+
+
+.btn-3{
+    width: 50x;
+    height: 80px;
+    border: none;
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+    background-color:tomato;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    outline:whitesmoke;
+}
+
+.btn-3:hover {
+    box-shadow: inset 185px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: turquoise;
+}
